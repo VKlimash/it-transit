@@ -1,0 +1,39 @@
+
+:host::ng-deep.container {
+  h2 {
+    text-align: center;
+  }
+
+  .container-body {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+
+    .item-block {
+      border: 1px solid silver;
+      height: 300px;
+      width: 48%;
+      border-radius: 9px;
+      position: relative;
+      .count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        span {
+          font-size: 25px;
+          font-weight: bold;
+        }
+      }
+
+    }
+  }
+
+
+  .ngx-spinner-overlay {
+    border-radius: 9px !important;
+  }
+
+
+}

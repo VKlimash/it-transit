@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>{{title}}</h2>
+  <div class="container-body">
+    <div class="container-body__left item-block">
+      <div class="count" *ngIf="text >= 1"><span>{{text}}</span></div>
+      <app-loader *ngIf="loaderOne"></app-loader>
+    </div>
+    <div class="container-body__right item-block">
+      <div class="count" *ngIf="text2 >= 1"><span>{{text2}}</span></div>
+      <app-loader *ngIf="loaderTwo"></app-loader>
+    </div>
+  </div>
+</div>
